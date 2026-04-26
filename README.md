@@ -48,3 +48,15 @@ Similarly, you need to `cd humanoid` to run CIR on HumanoidBench tasks. In the `
 ```
 python train_humanoid.py --env h1-reach-v0 --policy cir --hidden-sizes 512,512 --cuda 0 --smr --ratio 2 --seed 2 --dir test
 ```
+
+## Citation
+
+If you find our work interesting or use our work in your paper, please consider citing our paper:
+```
+@article{lyu2026temporal,
+  title={Temporal Difference Learning with Constrained Initial Representations},
+  author={Lyu, Jiafei and Yang, Jingwen and Qiao, Zhongjian and Liu, Runze and Liu, Zeyuan and Ye, Deheng and Lu, Zongqing and Li, Xiu},
+  journal={arXiv preprint arXiv:2602.11800},
+  year={2026}
+}
+```
