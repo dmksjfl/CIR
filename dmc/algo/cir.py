@@ -280,3 +280,10 @@ class CIR(object):
     def alpha(self):
         return self.log_alpha.exp()
 
+    def save(self, filename):
+        torch.save(self.policy.state_dict(), filename + "_policy")
+        torch.save(self.policy_optimizer.state_dict(), filename + "_policy_optimizer")
+
+    def load(self, filename):
+        self.policy.load_state_dict(torch.load(filename + "_policy"))
+        self.policy_optimizer.load_state_dict(torch.load(filename + "_policy_optimizer"))
