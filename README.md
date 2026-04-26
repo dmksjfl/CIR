@@ -1,6 +1,6 @@
 # Constrained Initial Representations
 
-This is the code for our novel method, Constrained Initial Representations (CIR).
+This is the code for our novel method, Constrained Initial Representations (CIR). The pre-trained model weights of CIR are available in [huggingface](https://huggingface.co/dmux/CIR/tree/main)
 
 
 ## Results
